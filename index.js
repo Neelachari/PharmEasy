@@ -1,5 +1,10 @@
 let mid1=document.getElementById("Mid2")
+let Haed2js=document.getElementById("Haed2")
 
-mid1.addEventListener("click",=>{
+Haed2js.addEventListener("click",()=>{
     
+})
+
+mid1.addEventListener("click",()=>{
+
 })
