@@ -10,7 +10,12 @@
  width: 90%;
  height: 50px;
  align-items: center;
+
  
+}
+#NavA{
+    width: 80%;
+    margin: auto;
 }
 #two :hover {
    color: teal;
@@ -20,6 +25,10 @@
     background-color: #E3F2FD;
     border-radius: 5%;
     border: 5px solid #E3F2FD;
+    margin-right: 10%;
+    font-size: x-small;
+    width: 100px;
+   
 }
 #App:hover{
     background-color: lightgray;
@@ -35,12 +44,12 @@
 
 }
 #two{
-    margin-left: 5%;
+    margin-right: 3%;
     width: 25%;
     justify-content: space-around;
 }
 #two a{
-   margin-right: 15%;
+   margin-right: 5%;
 }
 #Navdiv1 a{
     margin-left: 2%;
@@ -77,8 +86,8 @@
 #Search input{
     display: block;
    align-items: center;
-   width: 40%;
-   height: 25px;
+   width: 65%;
+   height: 30px;
    margin: auto;
    border-radius: 10px;
    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -87,6 +96,7 @@
 #Search{
     display: flex;
     margin: auto;
+    
     margin-bottom: 2%;
 }
 #Head1{
@@ -132,19 +142,21 @@
 }
 #head3{
     display: flex;
-    margin: auto;
-    width: 80%;
+    margin-left: 9%;
+    width: 70%;
     margin-top: 3%;
 }
+#head3 :hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
 #head3 img{
-    width: 40%;
-    border-radius: 6%;
-    margin-right: 2%;
+    width: 90%;
+    border-radius: 15px;
 }
 #Mid1 h2{
     margin-left: 9%;
     margin-bottom: 1%;
-    margin-top: 5%;
+    margin-top: 1%;
 }
 #Mid1 p{
     color: gray;
@@ -197,8 +209,92 @@
 #Mid4 h2{
     margin-bottom: 2%;
  }
+ #Mid5 a{
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    
+ }
+ #Mid5 div{
+      display: grid;
+      grid-template-columns: repeat(8,1fr);
+      width: 80%;
+      column-gap: 5%;
+      margin: auto;
+ 
+      
+      /* border: 1px solid red; */
+ }
+ #Mid5 img{
+     width: 100%;
+     margin: auto;
+ }
+ #Mid5 h6{
+     color: gray;
+     margin-top: 5px;
+     margin-bottom: 1px;
+ }
+ #Mid5 a :hover{
+     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+ }
+ #Mid5 h2{
+    margin-left: 8%;
+    margin-bottom: 1%;
+    margin-top: 3%;
+    margin-left: 8%;
+}
 
 
+
+
+#Mid6 a{
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    
+ }
+ #Mid6 div{
+      display: grid;
+      grid-template-columns: repeat(8,1fr);
+      width: 80%;
+      column-gap: 5%;
+      margin: auto;
+ 
+      
+      /* border: 1px solid red; */
+ }
+ #Mid6 img{
+     width: 100%;
+     margin: auto;
+ }
+ #Mid6 h5{
+     color: gray;
+     margin-top: 5px;
+     margin-bottom: 1px;
+ }
+ #Mid6 h6{
+    color: red;
+    margin-top: 5px;
+    margin-bottom: 1px;
+}
+
+ #Mid6 a :hover{
+     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+ }
+ #Mid6 h2{
+    margin-left: 8%;
+    margin-bottom: 1%;
+    margin-top: 3%;
+    margin-left: 8%;
+}
+#Lastimg img{
+    width: 80%;
+    margin: auto;
+    margin-left: 9%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: #E0F7FA;
+}
 
 
 
@@ -256,7 +352,15 @@ ul{
     width: 80%;
     margin: auto;
     color: gray;
+
 }
 #Phara b{
     color: black;
+}
+*body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+#Mid7 {
+ width: 20%;
 }
