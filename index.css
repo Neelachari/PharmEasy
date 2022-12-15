@@ -10,13 +10,22 @@
  width: 90%;
  height: 50px;
  align-items: center;
-
+ 
  
 }
 #NavA{
     width: 80%;
     margin: auto;
 }
+#NavA{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    
+}
+
+
 #two :hover {
    color: teal;
   
@@ -25,7 +34,8 @@
     background-color: #E3F2FD;
     border-radius: 5%;
     border: 5px solid #E3F2FD;
-    margin-right: 10%;
+    margin-right: 5%;
+    margin-left: 20%;
     font-size: x-small;
     width: 100px;
    
@@ -43,6 +53,9 @@
     /* border: 1px solid red; */
 
 }
+#one img{
+    margin-left: 9%;
+}
 #two{
     margin-right: 3%;
     width: 25%;
@@ -52,16 +65,24 @@
    margin-right: 5%;
 }
 #Navdiv1 a{
-    margin-left: 2%;
+    margin-left: 0%;
 }
 #NavB{
     display: flex;
     margin: auto;
     justify-content:space-evenly;
-    width: 50%;
+    width: 100%;
     align-items: center;
     
 
+}
+#NavB{
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    margin-left: 0%;
+    background-color: white;
+    
 }
 #NavB a{
     color: black;
@@ -73,7 +94,7 @@
 
 #Head1 h3{
     text-align: center;
-    margin-top: 2%;
+    margin-top: 10%;
     margin-bottom: 2%;
 }
 #Head1 a{
