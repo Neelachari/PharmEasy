@@ -10,7 +10,7 @@
  width: 90%;
  height: 50px;
  align-items: center;
- 
+ border-bottom: 0.5px solid gray;
  
 }
 #NavA{
@@ -24,7 +24,54 @@
     background-color: white;
     
 }
-
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    margin-top: 3%;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .next {
+    right: 2%;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev {
+    left: 2%;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .prev1, .next1 {
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    margin-top: 3%;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .next1 {
+    right: 8%;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev1 {
+    left: 2%;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev1hover, .next1:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
 
 #two :hover {
    color: teal;
@@ -73,7 +120,8 @@
     justify-content:space-evenly;
     width: 100%;
     align-items: center;
-    
+    height: 20px;
+    border-bottom: 0.2px solid gray;
 
 }
 #NavB{
