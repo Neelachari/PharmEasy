@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#NavA{
+ display: flex;
+ margin: auto;
+ /* justify-content:space-evenly; */
+ width: 90%;
+ height: 50px;
+ align-items: center;
+ border-bottom: 1px solid gray;
+ 
+}
+#NavA{
+    width: 80%;
+    margin: auto;
+}
+#NavA{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    
+}
+#App{
+    background-color: #E3F2FD;
+    border-radius: 5%;
+    border: 5px solid #E3F2FD;
+    margin-right:80%;
+    margin-left: 60%;
+    font-size: x-small;
+   margin-left: 300px;
+   margin-right: 300px;
+   
+}
+#App:hover{
+    background-color: lightgray;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 60%;
+ 
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 150px;
+    width: auto;
+    margin-top: -22px;
+    padding: 20%;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    margin-right: -8%;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev {
+    margin-left: -8%;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .slideshow-container img{
+    width: 100%;
+    height: 300px;
+    margin-top: 70px;
+  }
+  #mid2{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  #mid2 img{
+    width: 50%;
+  }
+  
