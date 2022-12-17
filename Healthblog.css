@@ -79,6 +79,7 @@
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
+    width: 1%;
   }
   .slideshow-container img{
     width: 100%;
@@ -87,10 +88,133 @@
   }
   #mid2{
     display: grid;
-    grid-column-start: 1;
-    grid-column-end: 3;
+    gap: 2%;
+    margin-top: 5%;
+    margin-bottom: 1%;
   }
-  #mid2 img{
+ #A{
+  grid-row-start: 1;
+  grid-row-end: 3;
+  height: 100%;
+  margin-top: 1%;
+ 
+ }
+ #B{
+  grid-row-start: 2;
+  grid-row-end: 3;
+  height: 60%;
+  margin-top: 1%;
+  margin-bottom: 1px;
+ }
+ #C{
+  grid-row-start: 2;
+  grid-row-end: 3;
+  height: 60%;
+  margin-top: 1%;
+ }
+ #C img{
+    margin-top: -5%;
+ }
+
+ #mid2 h5{
+  margin-bottom: 1%;
+ }
+ #mid3{
+  display: flex;
+  margin: auto;
+  gap: 1%;
+ }
+#mid3 img{
+  width: 33%;
+  margin-top: 10px;
+}
+#Mid h1{
+  margin-bottom: 10px;
+}
+#mid4{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+}
+#mid4 img{
+  margin-top: 2%;
+}
+#end{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+    /* footerpart */
+  .container{
+    max-width: 80%;
+    margin: auto;
+    
+}
+.row{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   margin-top: 10px;
+}
+.footer{
+    background-color:#E3F2FD;
+    max-width: 90%;
+    margin: auto;
+    padding: 30px 0;
+}
+ul{
+    list-style: none;
+    
+}
+.footer-column{
     width: 50%;
-  }
-  
+    padding: 0 15px;
+    
+}
+.footer-column a{
+    color: gray;
+    
+}
+.footer-column h4{
+   font-size: 15px;
+   color: black;
+   text-transform: capitalize;
+   margin-bottom: 10px;
+   margin-top: 30px;
+
+}
+#Footlast {
+    display: flex;
+    margin: auto;
+   
+}
+#Footlast img{
+    width: 6%;
+    margin: auto;
+}
+#Phara p{
+    padding: 1%;
+    width: 80%;
+    margin: auto;
+    color: gray;
+
+}
+#Phara b{
+    color: black;
+}
+*body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+#Mid7 {
+ width: 20%;
+}
