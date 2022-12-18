@@ -52,7 +52,12 @@ input[type="button"]{
     background-color: teal;
     color: white;
     font-size: 18px;
+    
 }
+input[type="button"]:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 p{
     text-align: center;
     padding-top: 20px;

@@ -52,8 +52,8 @@
     cursor: pointer;
     position: absolute;
     width: auto;
-    margin-top: 3%;
-    padding: 16px;
+    margin-top: 5%;
+    padding: 10px;
     color: black;
     font-weight: bold;
     font-size: 18px;
@@ -62,14 +62,16 @@
     user-select: none;
   }
   .next1 {
-    right: 8%;
+    right: 9%;
     border-radius: 3px 0 0 3px;
+    
+    margin-top: 5%;
   }
   .prev1 {
-    left: 2%;
+    left: 9%;
     border-radius: 3px 0 0 3px;
   }
-  .prev1hover, .next1:hover {
+  .prev1:hover, .next1:hover {
     background-color: rgba(0,0,0,0.8);
   }
 
@@ -152,7 +154,7 @@
     margin-left: 600px;
     font-size: small;
 }
-#Search input{
+/* #Search input{
     display: block;
    align-items: center;
    width: 65%;
@@ -167,6 +169,83 @@
     margin: auto;
     
     margin-bottom: 2%;
+} */
+.search_box_wrapper .search_box_item{
+  position: relative;
+  height: 30px;
+  margin-bottom: 50px;
+  width: 400px;
+  max-width: 100%;
+  margin-left: 20%;
+  width: 60%;
+  border-radius: 20px ;
+  /* border: 1px solid red; */
+  
+}
+
+.search_box_wrapper .search_box_item .search_box{
+  height: 50px;
+  
+}
+
+.search_box_wrapper .search_box_item .input_search{
+  background: var(--white);
+  border: 0;
+  border-radius: 3px;
+  color: var(--text-clr);
+  width: 100%;
+  height: 100%;
+  border: 1px solid red;
+}
+
+.search_box_wrapper .search_box_item .icon{
+  position: absolute;
+  top: 15px;
+  color: var(--icon-clr);
+  font-size: 22px; 
+  display: flex;
+  width: 20px;
+}
+
+.search_box_wrapper .search_box_item button{
+  width: 120px;
+  height: 40px;
+  position: absolute;
+  top: 5px;
+  border-radius: 3px;
+  border: 0px;
+  display: block;
+  background: var(--srch-btn);
+  color: var(--white);
+  cursor: pointer;
+  /* text-transform: uppercase; */
+  transition: all 0.5s ease;
+}
+
+.search_box_wrapper .search_box_item button:hover{
+  background: var(--srch-btn-hvr);
+  
+}
+
+/*search_box_1*/
+.search_box_wrapper .search_box_item.search_box_item_1 .input_search{
+  padding: 15px 140px 15px 45px;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+
+.search_box_wrapper .search_box_item.search_box_item_1 button{
+  right: 5px;
+  border-radius: 25px ;
+  color: #E3F2FD;
+  background-color: teal;
+ 
+}
+
+.search_box_wrapper .search_box_item.search_box_item_1 .icon{
+   left: 15px;
+   
+   
 }
 #Head1{
    /* border: 1px solid red; */
@@ -186,6 +265,7 @@
      width: 80%;
      column-gap: 5%;
      margin: auto;
+
 
      
      /* border: 1px solid red; */
@@ -358,6 +438,26 @@
     margin-left: 8%;
 }
 
+#Last1{
+    display: flex;
+    margin: auto;
+  
+    
+}
+#Last{
+    width: 80%;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    padding: 3% 3% ;
+    background-color: #ECEFF1;
+}
+#Last1 div{
+    display: flex;
+   width: 90%;
+   /* justify-content: center; */
+   margin-top: 5%;
+}
 
 
 

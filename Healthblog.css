@@ -10,7 +10,7 @@
  width: 90%;
  height: 50px;
  align-items: center;
- border-bottom: 1px solid gray;
+ border-bottom: 0.5px solid gray;
  
 }
 #NavA{
@@ -24,19 +24,72 @@
     background-color: white;
     
 }
+
+#two :hover {
+  color: teal;
+ 
+}
 #App{
-    background-color: #E3F2FD;
-    border-radius: 5%;
-    border: 5px solid #E3F2FD;
-    margin-right:80%;
-    margin-left: 60%;
-    font-size: x-small;
-   margin-left: 300px;
-   margin-right: 300px;
-   
+   background-color: #E3F2FD;
+   border-radius: 5%;
+   border: 5px solid #E3F2FD;
+   margin-right: 5%;
+   margin-left: 20%;
+   font-size: x-small;
+   width: 100px;
+  
 }
 #App:hover{
-    background-color: lightgray;
+   background-color: lightgray;
+   
+   
+}
+#NavA a{
+   color: black;
+}
+#one{
+   justify-content: space-evenly;
+   /* border: 1px solid red; */
+
+}
+#one img{
+   margin-left: 9%;
+}
+#two{
+   margin-right: 3%;
+   width: 25%;
+   justify-content: space-around;
+}
+#two a{
+  margin-right: 5%;
+}
+#Navdiv1 a{
+   margin-left: 0%;
+}
+#NavB{
+   display: flex;
+   margin: auto;
+   justify-content:space-evenly;
+   width: 100%;
+   align-items: center;
+   height: 20px;
+   border-bottom: 0.2px solid gray;
+
+}
+#NavB{
+   position: fixed;
+   top: 50px;
+   width: 100%;
+   margin-left: 0%;
+   background-color: white;
+   
+}
+#NavB a{
+   color: black;
+   font-size: small;
+}
+#NavB>a:hover{
+  color: teal;
 }
 * {box-sizing:border-box}
 
@@ -89,36 +142,36 @@
   #mid2{
     display: grid;
     gap: 2%;
-    margin-top: 5%;
+    margin-top: 1%;
     margin-bottom: 1%;
   }
  #A{
-  grid-row-start: 1;
-  grid-row-end: 3;
+ grid-column-start: 1;
+ grid-column-end: 2;
   height: 100%;
   margin-top: 1%;
  
  }
  #B{
-  grid-row-start: 2;
-  grid-row-end: 3;
-  height: 60%;
+  grid-column-start: 2;
+ grid-column-end: 3;
+  height: 50%;
   margin-top: 1%;
   margin-bottom: 1px;
  }
- #C{
-  grid-row-start: 2;
-  grid-row-end: 3;
-  height: 60%;
+ /* #C{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  height: 50%;
   margin-top: 1%;
- }
- #C img{
+ } */
+ /* #C img{
     margin-top: -5%;
- }
-
- #mid2 h5{
-  margin-bottom: 1%;
- }
+ } */
+#MID {
+  margin-bottom: 10px;
+}
+ 
  #mid3{
   display: flex;
   margin: auto;
@@ -145,15 +198,6 @@
   gap: 10px;
   margin-bottom: 50px;
 }
-
-
-
-
-
-
-
-
-
     /* footerpart */
   .container{
     max-width: 80%;
