@@ -96,12 +96,13 @@
 /* Slideshow container */
 .slideshow-container {
   max-width: 60%;
- 
+  
   position: relative;
   margin: auto;
 }
 .mySlides {
     display: none;
+
   }
   
   /* Next & previous buttons */
